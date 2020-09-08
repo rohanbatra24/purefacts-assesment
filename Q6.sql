@@ -1,0 +1,1 @@
+select * from Movies where id % 2 != 0 and description not like '%3D%' order by rating desc
